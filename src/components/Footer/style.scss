@@ -1,0 +1,48 @@
+#footer{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-top:0.01px rgba(255, 255, 255, 0.034) solid;
+    border-bottom: 0.01px rgba(255, 255, 255, 0.034) solid;
+    *{
+        user-select: none;
+    }
+    .social-media{
+        width: 350px;
+        .social-icon{
+            height: 50px;
+            margin: 0 10px;
+            transition: all 0.2s ease-in-out;
+            
+        }
+        .getgems{
+            border-radius: 20px;
+        }
+        .social-icon:hover{
+            transform: scale(1.2);
+        }
+    }
+    .logo-white{
+        width: 350px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+    }
+}
+#footer-items2{
+    width: 33vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#footer-items3{
+    width: 33vw;
+    height: 100%;
+}
+#footer-items1{
+    width: 33vw;
+    height: 100%;
+}

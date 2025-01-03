@@ -1,0 +1,47 @@
+@import '../../themes/style.scss';
+
+ #header{
+    width: 100vw;
+    height: 10vh;
+
+    .nav-bar{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    
+         #logo{
+            height: 70%;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            margin-left: 5vh;
+         }
+        ul{
+            height: 10vh;
+            width: 50vw;
+
+            font-family: 'font1';
+            font-size: 1vw;
+            list-style: none;
+            color: $button-color;
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            a{
+                text-decoration: none;
+                color:$button-color;
+                user-select: none;
+            }
+            li{
+                transition: all 0.2s ease-in-out;
+                
+            }
+            li:hover{
+                color: $button-hover-color;
+                transform: scale(1.1);
+            }
+        }
+    }
+ }
